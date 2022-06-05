@@ -8,17 +8,17 @@ export default function Today() {
     description: "Clear",
     humidity: "50",
     wind: "4",
-    date: "Wednesday May 9, 23:18",
+    date: "Sunday, June 5, 23:18",
   };
 
   return (
     <div className="Today">
       <div className="card mb-3">
         <div className="row no-gutters">
-          <div className="col-md-4 today-weather">
+          <div className="col-md-6 today-weather">
             <img src={weatherData.imgSrc} alt={weatherData.description} />
           </div>
-          <div className="col-md-8 temp">
+          <div className="col-md-6 temp">
             <div className="card-body">
               <h2 className="card-title">
                 Today
@@ -27,7 +27,9 @@ export default function Today() {
                   <span className="units">°F</span>
                 </div>
                 <ul>
-                  <li></li>
+                  <li>
+                    <span>{weatherData.description}</span>
+                  </li>
                   <li>
                     Humidity: <span>{weatherData.humidity}</span>%
                   </li>

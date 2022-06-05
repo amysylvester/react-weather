@@ -1,6 +1,6 @@
 .Today {
   margin: auto;
-  max-width: 85%;
+  max-width: 45%;
 }
 .Today ul {
   list-style: none;
@@ -9,15 +9,11 @@
 .Today div .today-weather {
   margin: auto;
   text-align: center;
-  width: 45%;
-}
-
-.Today div .today .temp {
-  width: 45%;
 }
 
 .Today .row {
   flex-wrap: unset;
+  //max-width: 45%;
 }
 
 .Today h2 {
