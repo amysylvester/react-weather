@@ -1,16 +1,14 @@
-.location {
-  border: 0;
-  border-radius: 3px;
+.search-city,
+.location-entered {
   font-size: 17px;
-  padding: 6px 6px 4px 9px;
-  width: 75%;
-}
-
-.Search form {
   margin: auto;
-  font-size: 17px;
   padding: 6px 6px 4px 9px;
   max-width: 75%;
+}
+
+.search-city {
+  border: 0;
+  border-radius: 3px;
 }
 
 .location-displayed {

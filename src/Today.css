@@ -1,3 +1,7 @@
+.Today {
+  margin: auto;
+  max-width: 85%;
+}
 .Today ul {
   list-style: none;
 }

@@ -3,7 +3,7 @@ import "./Today.css";
 
 export default function Today() {
   let weatherData = {
-    imgSrc: "Images/Weather/Current/01d.svg",
+    imgSrc: "images/Weather/Today/01d.svg",
     temperature: "65",
     description: "Clear",
     humidity: "50",

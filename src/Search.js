@@ -12,12 +12,12 @@ export default function Search() {
 
   function displayCity(event) {
     event.preventDefault();
-    setMessage(`It is currently 10°C in ${city}`);
+    setMessage(`${city}`);
   }
 
   return (
-    <div className="location">
-      <form onSubmit={displayCity}>
+    <div className="search-city">
+      <form className="location-entered" onSubmit={displayCity}>
         <input
           className="form-control"
           placeholder="Enter a City..."
