@@ -1,0 +1,21 @@
+.location {
+  border: 0;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 6px 6px 4px 9px;
+  width: 75%;
+}
+
+.Search form {
+  margin: auto;
+  font-size: 17px;
+  padding: 6px 6px 4px 9px;
+  max-width: 75%;
+}
+
+.location-displayed {
+  margin: auto;
+  font-size: 45px;
+  padding: 10px 0px 25px 0px;
+  text-align: center;
+}

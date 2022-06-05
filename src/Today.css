@@ -1,0 +1,44 @@
+.Today ul {
+  list-style: none;
+}
+
+.Today div .today-weather {
+  margin: auto;
+  text-align: center;
+  width: 45%;
+}
+
+.Today div .today .temp {
+  width: 45%;
+}
+
+.Today .row {
+  flex-wrap: unset;
+}
+
+.Today h2 {
+  color: #212529;
+}
+
+.Today img {
+  width: 50%;
+}
+
+.Today ul {
+  color: #6e88a1;
+  font-size: 20px;
+  padding: 10px 0px 0px 0px;
+  text-transform: capitalize;
+}
+
+.Today em {
+  color: gray;
+  font-size: 12px;
+}
+
+.Today .units {
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  top: -4.5px;
+}
