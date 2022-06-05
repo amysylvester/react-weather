@@ -1,0 +1,10 @@
+.Footer footer {
+  text-align: center;
+  color: #123557;
+  font-size: small;
+  padding: 20px;
+}
+
+.Footer a {
+  color: #123557;
+}

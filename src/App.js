@@ -1,12 +1,12 @@
 import "./App.css";
 import Logo from "./Logo.js";
+import Footer from "./Footer.js";
 
 function App() {
   return (
     <div>
-      <header>
-        <Logo />
-      </header>
+      <Logo />
+      <Footer />
     </div>
   );
 }
